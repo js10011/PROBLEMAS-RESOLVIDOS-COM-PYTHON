@@ -17,7 +17,7 @@ def carros():
     print(automo)
 carros()
 
-#ai
+#ai ai ai
 def make_car(fabricante, modelo, **info_extra):
     
     carro = {"fabricante": fabricante, "modelo": modelo}

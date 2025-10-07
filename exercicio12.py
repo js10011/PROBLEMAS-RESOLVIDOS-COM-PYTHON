@@ -3,7 +3,7 @@ o nome 'admin'. Suponha que você esteja escrevendo um código que exibirá
 uma saudação a cada usuário depois que eles fizerem login em um site.
 Percorra a lista com um laço e mostre uma saudação para cada usuário:'''
 
-users = ['Maria', 'jose', 'jesus', 'judas']
+users = ['Maria', 'jose', 'jesus', 'judas', ]
 for user in users:
     print(f'Ola {user}')
 
@@ -15,12 +15,12 @@ admin, gostaria de ver um relatório de status?'''
 fazer login novamente.
 '''
 if  'admin' in users:
-    print(' Ola admin, gostaria de ver um relatório de status?')
+    print(' Ola admin, gostaria de ver um relatorio de status?')
 
 elif users  ==[]:
     print('Precisamos encontrar alguns usuarios')
 else:
-    print('Ola Eric, obrigado por fazer login novamente.')
+    print('Ja tem uma conta ?')
 
 '''Remova todos os nomes de usuário de sua lista e certifique-se de que a
 mensagem correta seja exibida'''

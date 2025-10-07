@@ -3,7 +3,7 @@
 
 import calculadora
 
-a = 10
+a = 100
 b = 5
 
 print("Soma:", calculadora.somar(a, b))

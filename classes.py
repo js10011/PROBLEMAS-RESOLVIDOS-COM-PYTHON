@@ -1,10 +1,10 @@
 
 #criando class
 class Carro:
-    """Classe que representa um carro."""
+    
 
     def __init__(self, fabricante, modelo, cor):
-        """Método especial que inicializa os atributos."""
+       
         self.fabricante = fabricante
         self.modelo = modelo
         self.cor = cor

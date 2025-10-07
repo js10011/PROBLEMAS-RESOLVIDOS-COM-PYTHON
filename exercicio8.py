@@ -3,7 +3,7 @@ acrescente várias linhas no final do programa que façam o seguinte'''
 ''' • Exiba a
 mensagem Os três primeiros itens da lista são: Em seguida, use uma fatia para
 exibir os três primeiros itens da lista desse programa.'''
-pais = ["America do Sul", "Brasil", "portugues", "real","Amazonia", "carnaval", "futebol"]
+pais = ["America do Sul", "Brasil", "portugues", "real","Amazonia", "carnaval", "cafe"]
 print(f'Os tres primeiros itens da lista sao:\n{pais[:3]}')
 
 '''Exiba a mensagem Os três últimos itens da lista são:. Use uma fatia para

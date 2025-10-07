@@ -68,7 +68,7 @@ def iniciar_jogo():
         print("Jogo encerrado.")
 
 def keywords_demo():
-    # Bora usar o resto das palavras-chave só pra cumprir o desafio
+   
     def funcao_oculta():
         nonlocal_var = 10
         def interna():

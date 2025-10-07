@@ -37,7 +37,6 @@ for pet in pets:
 
 ''' Crie um dicionário chamado favorite_places. Pense em
 três nomes para usar como chaves do dicionário e armazene de um a três
-
 lugares favoritos para cada pessoa.  '''
 
 favorite_places = {

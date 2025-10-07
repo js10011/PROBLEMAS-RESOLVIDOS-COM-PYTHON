@@ -13,7 +13,7 @@ na saída contendo uma frase simples como Gosto de pizza de pepperoni.
 
 pizzas = ['Calabresa', '4 queijos', 'Carne de sol', 'Marguerita']
 for pizza in pizzas :
-    print(f'Gosto de pizza de {pizza}\nEu realmente adoro esse sabor!')
+    print(f'Amo  pizza de {pizza}\nEu realmente adoro esse sabor!\n')
 
 
 ''': Pense em pelo menos três animais diferentes que tenham uma

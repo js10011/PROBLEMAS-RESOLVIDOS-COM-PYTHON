@@ -5,12 +5,15 @@ valor igual a 'green', 'yellow' ou 'red'''
 ''' Escreva uma instrução if para testar se a cor do alienígena é verde. Se for,
 mostre uma mensagem informando que o jogador acabou de ganhar cinco
 pontos'''
-alien = 'verde'
-if alien == 'verde':
-    print(' voce ganhou 5 pontos')
+alien = 'verde', 'amarelo', 'vermelho'
+if 'preto' in alien:
+    print(' voce ganhou 10 pontos')
+elif 'roxo'  != alien:
+    print("Seu burro ...")
+
 
 else:
-    print('parabens voce ganhou 10 pontos')
+    print('parabens voce eh muito burro')
 
 
 ''' Escolha uma cor para um alienígena, como foi feito no
@@ -72,4 +75,18 @@ frase, por exemplo, Você realmente gosta de bananas!'''
 favorite_fruits= ['Banana', 'uva','abacate', 'acai', 'pitaia']
 
 if 'abacaxi' in favorite_fruits :
-    print('vc não gosta dessa fruta')
+    print('Eu nao gosta dessa fruta')
+
+
+'''Escreva um programa que solicite ao usuário um nome de usuário e uma senha.
+Se o nome de usuário for "admin" e a senha for "1234", o programa deve exibir a mensagem "Acesso permitido".
+Caso contrário, o programa deve exibir a mensagem "Acesso negado".'''
+
+
+username = input("Digite o nome de usuario: ")
+password = input("Digite a senha: ")
+
+if username == "admin" and password == "1234":
+    print("Acesso permitido")
+else:
+    print("Acesso negado")

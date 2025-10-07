@@ -8,7 +8,6 @@ print(f'Olá {nome}, gostaria de aprender um pouco de python  ?')
 ''' Armazene o nome de uma
 pessoa em uma variável e então apresente o nome dessa pessoa em letras
 minúsculas, em letras maiúsculas e somente com a primeira letra maiúscula.'''
-
 pessoa = "marie curie"
 print(pessoa.lower())
 print(pessoa.upper())
@@ -27,19 +26,10 @@ nome da pessoa famosa em uma variável chamada famous_person. Em
 seguida, componha sua mensagem e armazene-a em uma nova variável
 chamada message. Exiba sua mensagem.
 '''
+
 famous_person = "Ludwig"
 messagem = frase
 print(f'{famous_person} - "{messagem}"')
-
-'''
- Armazene o nome de uma
-pessoa e inclua alguns caracteres em branco no início e no final do nome.
-Lembre-se de usar cada combinação de caracteres, "\t" e "\n", pelo menos
-uma vez.
-'''
-print("\t Charles Babage \n")
-
-
 
 
 '''
@@ -48,7 +38,16 @@ nome sejam mostrados. Em seguida, exiba o nome usando cada uma das três
 funções de remoção de espaços: lstrip(), rstrip() e strip().
 '''
 NomePessoa = "\t   Marie Jane   \n"
-print(NomePessoa)
-print(NomePessoa.lstrip())
-print(NomePessoa.rstrip())
-print(NomePessoa.strip())
+print(NomePessoa)                 
+print(NomePessoa.lstrip()) 
+print(NomePessoa.rstrip())      
+print(NomePessoa.strip())  
+
+'''Escreva um programa que imprime os números de 1 a 5 em uma única linha,
+separando-os com asteriscos.
+Em seguida, o programa deve imprimir a mensagem
+ "Fim do programa." na mesma linha após todos os números.
+Use os parâmetros sep e end na função print().'''
+print(1, 2, 3, 4, 5, sep="*") # inseri valores/caracteres entre o que foi definido
+print("Fim do programa.", end="") #definido como  nova lina
+

@@ -23,10 +23,18 @@ num_lista = [1, 2, 3,4, 5, 6, 7, 8, 9, 10]
 for cubo in num_lista:
     print(cubo**3)
 
-
 ''' Use uma list comprehension para gerar uma lista
 dos dez primeiros cubos.
 '''
 num_lista= [value**3 for value in range(1,11)]
 print(num_lista)
  
+
+'''Escreva um programa que solicita ao usuário um número N e exibe a tabela de multiplicação de Pitágoras tamanho NxN, usando loops aninhados.
+O programa deve exibir apenas os números da tabela.'''
+N = int(input("Digite o número N: "))
+
+for i in range(1, N + 1):
+    for j in range(1, N + 1):
+        print(i * j, end='\t')
+    print()
