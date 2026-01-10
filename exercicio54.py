@@ -9,7 +9,7 @@ def divide_numbers(a, b):
     except ZeroDivisionError:
         traceback.print_exc()
 
-# Exemplo de chamada da função
+
 divide_numbers(10, 0)
 
 '''Escreva uma função complex_operation que chame várias funções aninhadas e possa gerar uma exceção.
