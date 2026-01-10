@@ -63,8 +63,22 @@ d = D()
 d.method()
 
 '''Crie as classes M, N e O, onde N e O herdam de M.
-
 Em cada classe, defina o método action, que imprime o nome da classe
-
 e chama o método da classe pai usando super().
 Verifique a ordem de chamada dos métodos, criando uma instância da classe N e chamando o método action.'''
+class M:
+    def action(self):
+        print("Class M action")
+
+class N(M):
+    def action(self):
+        print("Class N action")
+        super().action()
+
+class O(M):
+    def action(self):
+        print("Class O action")
+        super().action()
+
+n = N()
+n.action()
